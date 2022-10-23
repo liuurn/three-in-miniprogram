@@ -41,4 +41,4 @@ if (source.bufferView !== undefined) {
 
 其中，`base64ArrayBuffer`需要自行实现，微信自带了[arrayBufferToBase64](https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.arrayBufferToBase64.html)，但截止目前，已经停止维护了。Web API `btoa`也可以实现，但小程序中并不支持。所以可以使用第三方库，或者参考这个[gist](https://gist.github.com/jonleighton/958841)
 
-改好的 `gltf-loader.js` 可以参考当前目录的对应文件。注意，文件中引用了`arrayBufferToBase64`但没有实现，请参考上文。
+**最终调整好的`gltf-loader.js`在[这里](https://github.com/liuurn/three-in-miniprogram/blob/main/caveats/%E5%8A%A0%E8%BD%BDglTF%E6%96%87%E4%BB%B6/gltf-loader.js)**。注意，文件中引用了`arrayBufferToBase64`但没有实现，请参考上文。

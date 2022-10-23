@@ -1,5 +1,5 @@
 /* eslint-disable */
-// !!!需要安装对应包，或参考 https://gist.github.com/jonleighton/958841
+// !!!base64ArrayBuffer 需要安装对应包，或参考 https://gist.github.com/jonleighton/958841
 import { base64ArrayBuffer } from "./base64ArrayBuffer";
 export function registerGLTFLoader(THREE) {
   THREE.GLTFLoader = (function () {
